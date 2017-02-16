@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jenny Chu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+ src="https://code.jquery.com/jquery-3.1.1.min.js"
+ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+ crossorigin="anonymous"></script>
+ 	
+</head>
+
+<body>
+<header>
+<h1>Harry Potter Trivia!</h1>
+</header>
+<div class="container">
+	<div class="row">
+		<button id="startGame">Start Game</button>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+		Announcements: <span id="displayAnnounce"></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+		Wins: <span id="winsCount">0</span> | Loses: <span id="losesCount">0</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+		Time Remaining: <span id="timeLeft">10</span> Seconds
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12" id="displayQuestion">Question Placeholder
+		</div>
+	</div>
+	<div class="row" id="answerChoices">
+		<div class="col-xs-12">
+			<button class="choices" id="firstChoice">Example</button>
+			<button class="choices" id="secondChoice">Example</button>
+			<button class="choices" id="thirdChoice">Example</button>
+			<button class="choices" id="fourthChoice">Example</button>
+		</div>
+	</div>
+</div>
+
+<script text="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
