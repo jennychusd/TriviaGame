@@ -24,11 +24,25 @@ h1 {
 
 #startGame {
 	visibility: visible;
+	border: 1px solid #7f0909;
+	padding: 6px 20px;
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+.announcement {
+	min-height:20px;
 
 }
 
+.scoreboard {
+	font-size: 18px;
+	padding:5px 0;
+}
+
 #displayQuestion {
-	font-size:20px;
+	font-size: 18px;
+	padding-top: 15px;
 	visibility:hidden;
 }
 
@@ -40,14 +54,23 @@ h1 {
 
 .choices {
 	border: 1px solid #7f0909;
-	padding:10px 20px;
+	padding: 6px 20px;
 	margin: 10px auto;
 	display: block;
 	background-color: #fff;
-	min-width: 200px;
+	min-width: 300px;
 	max-width: 500px;
 }
 
-.choices:hover {
+button:hover,
+#startGame:hover {
+	background-color: #ffe799;
+}
+
+.correctAns {
 	background-color: #ffc500;
+}
+
+.selectedAns {
+	background-color: #ffe799;
 }
